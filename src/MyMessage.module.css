@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.reverse_container {
+    justify-content: flex-start;
+}
+
+.message_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 400px;
+    min-height: 65px ;
+    height: max-content;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: aliceblue;
+}
+
+.reverse_message_wrapper {
+    flex-direction: row-reverse;
+}
+
+.avatar {
+    width: 50px;
+}
+
+.message_text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_message_text {
+    flex-direction: row-reverse;
+}
+
+.message_text_wrapper{
+    padding: 10px;
+    max-width: 250px;
+    word-break: break-all;
+    min-height: 65px ;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend_info {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.online {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+.offline {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
