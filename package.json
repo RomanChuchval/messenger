@@ -1,4 +1,5 @@
 {
+  "homepage": "https://RomanChuchval.github.io/messenger",
   "name": "telegram",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@types/react-dom": "^18.0.11",
     "@types/uuid": "^9.0.1",
     "date-fns": "^2.29.3",
+    "gh-pages": "^5.0.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
